@@ -1,0 +1,450 @@
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2026-04-29T16:41:10.706Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.7.3","timestamp":"2026-04-29T16:41:10.888Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T16:41:11.312Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2026-04-29T16:41:11.314Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":0,"type":1},"timestamp":"2026-04-29T16:41:11.316Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":1,"type":2},"timestamp":"2026-04-29T16:41:11.321Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":2,"type":3},"timestamp":"2026-04-29T16:41:11.323Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":3,"type":4},"timestamp":"2026-04-29T16:41:11.327Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":4,"type":5},"timestamp":"2026-04-29T16:41:11.330Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":5,"type":6},"timestamp":"2026-04-29T16:41:11.333Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":6,"type":7},"timestamp":"2026-04-29T16:41:11.335Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":7,"type":8},"timestamp":"2026-04-29T16:41:11.338Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":8,"type":9},"timestamp":"2026-04-29T16:41:11.341Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":9,"type":10},"timestamp":"2026-04-29T16:41:11.344Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":10,"type":11},"timestamp":"2026-04-29T16:41:11.347Z"}
+{"label":"Discover Slider","level":"info","message":"Creating built-in discovery slider","slider":{"enabled":true,"isBuiltIn":true,"order":11,"type":12},"timestamp":"2026-04-29T16:41:11.349Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T16:41:11.401Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2026-04-29T16:48:11.308Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.7.3","timestamp":"2026-04-29T16:48:11.533Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T16:48:12.016Z"}
+{"label":"Server","level":"info","message":"Skipping starting the scheduled jobs as we have no Plex/Jellyfin/Emby servers setup yet","timestamp":"2026-04-29T16:48:12.018Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T16:48:12.111Z"}
+{"error":"INVALID_URL","hostname":"http://localhost:8096","label":"Auth","level":"error","message":"The provided Emby is invalid or the server is not reachable.","status":404,"timestamp":"2026-04-29T16:52:53.752Z"}
+{"account":{"email":"root","ip":"::ffff:172.29.0.1","password":"__REDACTED__"},"label":"Auth","level":"warn","message":"Failed login attempt from user with incorrect Jellyfin credentials","timestamp":"2026-04-29T16:53:30.074Z"}
+{"account":{"email":"root","ip":"::ffff:172.29.0.1","password":"__REDACTED__"},"label":"Auth","level":"warn","message":"Failed login attempt from user with incorrect Jellyfin credentials","timestamp":"2026-04-29T16:54:24.814Z"}
+{"ip":"::ffff:172.29.0.1","jellyfinUsername":"root","label":"API","level":"info","message":"Sign-in attempt from Jellyfin user with access to the media server; creating initial admin user for Jellyseerr","timestamp":"2026-04-29T16:54:32.719Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T16:54:32.762Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"2a291cad-3d2a-4ccd-8d2a-d7f81885cd3b","timestamp":"2026-04-29T16:54:54.209Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Full Scan Complete","timestamp":"2026-04-29T16:54:54.215Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T16:55:00.019Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"bd3575ea-4891-47f3-9910-ffb52edcf5a8","timestamp":"2026-04-29T16:55:00.020Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T16:55:00.031Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"4ce939cd-e074-412a-b809-85fb6ee7c657","timestamp":"2026-04-29T16:56:04.203Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process library: Фильмы","timestamp":"2026-04-29T16:56:04.219Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Full Scan Complete","timestamp":"2026-04-29T16:56:04.260Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:00:00.027Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"fdf7c023-7ace-4eff-9620-4cb6afd613c9","timestamp":"2026-04-29T17:00:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:00:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:00:00.091Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:05:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"93846114-bd3e-40b5-a783-59d1fb23cfca","timestamp":"2026-04-29T17:05:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:05:00.050Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:05:00.098Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:10:00.043Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"17a26de0-50ec-4659-8e09-387ceb965bbf","timestamp":"2026-04-29T17:10:00.045Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:10:00.050Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:10:00.088Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2026-04-29T17:12:49.795Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.7.3","timestamp":"2026-04-29T17:12:50.019Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T17:12:50.441Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T17:12:50.461Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T17:12:50.575Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:15:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"bfe0b094-8a9a-4859-818b-642179da128a","timestamp":"2026-04-29T17:15:00.031Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:15:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:15:00.087Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:20:00.023Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"c171a16f-328e-4f09-ae11-46b4ce1bfe29","timestamp":"2026-04-29T17:20:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:20:00.040Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:20:00.041Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:20:00.080Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2026-04-29T17:20:20.803Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.7.3","timestamp":"2026-04-29T17:20:21.045Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T17:20:21.468Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T17:20:21.487Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T17:20:21.620Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"b9da3922-5ca7-4ef0-93c2-dc6386f45f77","timestamp":"2026-04-29T17:21:03.504Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:21:03.511Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process library: Аниме","timestamp":"2026-04-29T17:21:03.512Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process library: Фильмы","timestamp":"2026-04-29T17:21:03.554Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process library: Сериалы","timestamp":"2026-04-29T17:21:03.571Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Full Scan Complete","timestamp":"2026-04-29T17:21:03.585Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:25:00.026Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"0e038ff6-29eb-4053-87cf-203715042f50","timestamp":"2026-04-29T17:25:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:25:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T17:25:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T17:25:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:25:00.104Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T17:25:00.119Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:25:00.132Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:30:00.016Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"d4efd482-099a-42a1-ab9b-4c447f7b4094","timestamp":"2026-04-29T17:30:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:30:00.033Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T17:30:00.033Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T17:30:00.033Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:30:00.102Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T17:30:00.128Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:30:00.149Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:35:00.027Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"5723ff08-e468-44c2-8162-fd579d1662a5","timestamp":"2026-04-29T17:35:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:35:00.048Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T17:35:00.048Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T17:35:00.048Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:35:00.111Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T17:35:00.128Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:35:00.144Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:40:00.022Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"9dc041ce-6bbb-428b-ba18-68fae219e230","timestamp":"2026-04-29T17:40:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:40:00.048Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T17:40:00.049Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T17:40:00.049Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:40:00.113Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T17:40:00.129Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:40:00.144Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:45:00.020Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"f50ee99d-5c89-4d59-8544-d95fd81831c4","timestamp":"2026-04-29T17:45:00.022Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:45:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T17:45:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T17:45:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:45:00.093Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T17:45:00.108Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:45:00.123Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:50:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"699fbb95-8d56-41de-bc0d-564821086f01","timestamp":"2026-04-29T17:50:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:50:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T17:50:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T17:50:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:50:00.074Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T17:50:00.089Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:50:00.103Z"}
+{"level":"info","message":"Commit Tag: $GIT_SHA","timestamp":"2026-04-29T17:53:22.203Z"}
+{"level":"info","message":"Starting Jellyseerr version 2.7.3","timestamp":"2026-04-29T17:53:22.609Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T17:53:23.127Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T17:53:23.148Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T17:53:23.243Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T17:55:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Jellyfin Sync Starting","sessionId":"168b5e58-4bd9-4d84-95f6-2d4a2f95b056","timestamp":"2026-04-29T17:55:00.030Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T17:55:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T17:55:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T17:55:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T17:55:00.145Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T17:55:00.164Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T17:55:00.186Z"}
+{"level":"info","message":"Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49","timestamp":"2026-04-29T17:59:38.439Z"}
+{"level":"info","message":"Starting Seerr version 3.2.0","timestamp":"2026-04-29T17:59:38.834Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T17:59:40.620Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T17:59:40.663Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T17:59:40.757Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:00:00.005Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"afe38604-a808-4eb3-8547-233a6a72e615","timestamp":"2026-04-29T18:00:00.006Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:00:00.007Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:00:00.007Z"}
+{"label":"Anime-List Sync","level":"info","message":"Downloading latest mapping file","timestamp":"2026-04-29T18:00:00.010Z"}
+{"label":"Anime-List Sync","level":"info","message":"Loading mapping file","timestamp":"2026-04-29T18:00:00.509Z"}
+{"label":"Anime-List Sync","level":"info","message":"Loaded 10650 AniDB items from mapping file","timestamp":"2026-04-29T18:00:00.627Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:00:00.627Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:00:00.681Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:00:00.700Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:00:00.718Z"}
+{"ip":"::ffff:172.29.0.1","jellyfinUsername":"root","label":"API","level":"info","message":"Found matching Jellyfin user; updating user with Jellyfin","timestamp":"2026-04-29T18:00:01.140Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:05:00.015Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"b1cc352c-6be2-459a-9a88-6ccdf135ef79","timestamp":"2026-04-29T18:05:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:05:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:05:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:05:00.025Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:05:00.063Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:05:00.078Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:05:00.092Z"}
+{"level":"info","message":"Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49","timestamp":"2026-04-29T18:06:49.466Z"}
+{"level":"info","message":"Starting Seerr version 3.2.0","timestamp":"2026-04-29T18:06:49.800Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T18:06:50.366Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T18:06:50.395Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T18:06:50.510Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:10:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"3ab887df-2fb7-41b5-8f99-9ef4a6ce9a0b","timestamp":"2026-04-29T18:10:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:10:00.043Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:10:00.044Z"}
+{"label":"Anime-List Sync","level":"info","message":"Loading mapping file","timestamp":"2026-04-29T18:10:00.053Z"}
+{"label":"Anime-List Sync","level":"info","message":"Loaded 10650 AniDB items from mapping file","timestamp":"2026-04-29T18:10:00.189Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:10:00.190Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:10:00.501Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:10:00.534Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:10:00.564Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:15:00.019Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"966e3526-5620-4630-8cbe-7856fd04449b","timestamp":"2026-04-29T18:15:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:15:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:15:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:15:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:15:00.104Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:15:00.123Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:15:00.143Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:20:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"3d57671e-983f-4f99-a4c2-019b6b221eb9","timestamp":"2026-04-29T18:20:00.023Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:20:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:20:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:20:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:20:00.091Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:20:00.104Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:20:00.118Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:25:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"f217a087-12ab-4bbb-a4ea-e5119314c015","timestamp":"2026-04-29T18:25:00.053Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:25:00.053Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:25:00.053Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:25:00.065Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:25:00.165Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:25:00.182Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:25:00.202Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:30:00.027Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"2660f9ee-7891-4c67-9f8b-3c7b43f94c4f","timestamp":"2026-04-29T18:30:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:30:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:30:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:30:00.059Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:30:00.115Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:30:00.131Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:30:00.147Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:35:00.025Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"e1cbc010-d5ad-4491-afad-e5a5f203c481","timestamp":"2026-04-29T18:35:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:35:00.030Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:35:00.031Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:35:00.047Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:35:00.115Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:35:00.131Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:35:00.148Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:40:00.031Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"cb2b9e17-0da7-4518-beb0-19be64409f83","timestamp":"2026-04-29T18:40:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:40:00.039Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:40:00.040Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:40:00.056Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:40:00.131Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:40:00.148Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:40:00.164Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:45:00.011Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"5dd695f1-26de-4bd3-a887-75ea8dac6be4","timestamp":"2026-04-29T18:45:00.022Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:45:00.022Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:45:00.022Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:45:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:45:00.098Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:45:00.118Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:45:00.134Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:50:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"1a2068a2-4f00-476c-b392-ae74363cf12d","timestamp":"2026-04-29T18:50:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:50:00.026Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:50:00.026Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:50:00.039Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:50:00.107Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:50:00.126Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:50:00.141Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T18:55:00.013Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"0bb8e643-7663-4451-aab9-0b7c0aa909de","timestamp":"2026-04-29T18:55:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T18:55:00.020Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T18:55:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T18:55:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T18:55:00.095Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T18:55:00.110Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T18:55:00.126Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:00:00.009Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"570db443-aba6-4951-bad0-7ba0b27e4839","timestamp":"2026-04-29T19:00:00.010Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:00:00.011Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:00:00.012Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:00:00.022Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:00:00.112Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:00:00.129Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:00:00.152Z"}
+{"label":"Notifications","level":"info","message":"Sending notification(s) for MEDIA_AUTO_APPROVED","subject":"Anaconda (2025)","timestamp":"2026-04-29T19:00:59.881Z"}
+{"label":"Media Request","level":"info","mediaId":1,"message":"Sent request to Radarr","requestId":1,"timestamp":"2026-04-29T19:00:59.884Z"}
+{"label":"Radarr","level":"info","message":"Radarr accepted request","timestamp":"2026-04-29T19:01:00.678Z"}
+{"label":"Notifications","level":"info","message":"Sending notification(s) for MEDIA_AUTO_APPROVED","subject":"Anaconda (2025)","timestamp":"2026-04-29T19:02:01.936Z"}
+{"label":"Media Request","level":"info","mediaId":1,"message":"Sent request to Radarr","requestId":2,"timestamp":"2026-04-29T19:02:01.938Z"}
+{"label":"Radarr","level":"info","message":"Movie is already monitored in Radarr.","movieId":1,"movieTitle":"Anaconda","timestamp":"2026-04-29T19:02:02.072Z"}
+{"label":"Radarr","level":"info","message":"Triggering search for existing monitored movie without file","movieId":1,"movieTitle":"Anaconda","timestamp":"2026-04-29T19:02:02.072Z"}
+{"label":"Radarr API","level":"info","message":"Executing movie search command","movieId":1,"timestamp":"2026-04-29T19:02:02.073Z"}
+{"level":"info","message":"[Radarr] Removed movie Anaconda","timestamp":"2026-04-29T19:02:35.507Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"e9e34887-2e74-460e-b50f-5cb9912e0c88","timestamp":"2026-04-29T19:03:40.964Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:03:40.965Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:03:40.965Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process library: Аниме","timestamp":"2026-04-29T19:03:40.976Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process library: Фильмы","timestamp":"2026-04-29T19:03:41.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process library: Сериалы","timestamp":"2026-04-29T19:03:41.051Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Full Scan Complete","timestamp":"2026-04-29T19:03:41.068Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:05:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"374dded5-69b6-4bb5-a606-82ea78f51221","timestamp":"2026-04-29T19:05:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:05:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:05:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:05:00.059Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:05:00.086Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:05:00.100Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:05:00.115Z"}
+{"label":"Notifications","level":"info","message":"Sending notification(s) for MEDIA_AUTO_APPROVED","subject":"The Boys (2019)","timestamp":"2026-04-29T19:05:43.455Z"}
+{"label":"Media Request","level":"info","mediaId":2,"message":"Request has an override quality profile ID: 5","requestId":3,"timestamp":"2026-04-29T19:05:43.462Z"}
+{"label":"Media Request","level":"info","mediaId":2,"message":"Sent request to Sonarr","requestId":3,"timestamp":"2026-04-29T19:05:43.463Z"}
+{"label":"Sonarr","level":"info","message":"Sonarr accepted request","timestamp":"2026-04-29T19:05:46.263Z"}
+{"label":"Notifications","level":"info","message":"Sending notification(s) for MEDIA_AUTO_APPROVED","subject":"The Boys (2019)","timestamp":"2026-04-29T19:07:42.908Z"}
+{"label":"Media Request","level":"info","mediaId":3,"message":"Sent request to Sonarr","requestId":4,"timestamp":"2026-04-29T19:07:42.922Z"}
+{"label":"Sonarr","level":"info","message":"Sonarr accepted request","timestamp":"2026-04-29T19:07:43.471Z"}
+{"label":"Media","level":"error","message":"[Sonarr] Failed to remove series: Request failed with status code 404","timestamp":"2026-04-29T19:08:41.887Z"}
+{"label":"Media","level":"error","message":"[Sonarr] Failed to remove series: Request failed with status code 404","timestamp":"2026-04-29T19:08:43.395Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:10:00.033Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"984f32ac-9200-4900-b2b7-0219f3ace2ce","timestamp":"2026-04-29T19:10:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:10:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:10:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:10:00.049Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:10:00.139Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:10:00.155Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:10:00.170Z"}
+{"level":"info","message":"Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49","timestamp":"2026-04-29T19:12:22.676Z"}
+{"level":"info","message":"Starting Seerr version 3.2.0","timestamp":"2026-04-29T19:12:22.964Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T19:12:23.452Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T19:12:23.476Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T19:12:23.542Z"}
+{"level":"info","message":"Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49","timestamp":"2026-04-29T19:13:17.537Z"}
+{"level":"info","message":"Starting Seerr version 3.2.0","timestamp":"2026-04-29T19:13:17.792Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T19:13:18.340Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T19:13:18.367Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T19:13:18.431Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:15:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"350c1c94-efee-47aa-b64f-395746142c07","timestamp":"2026-04-29T19:15:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:15:00.039Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:15:00.039Z"}
+{"label":"Anime-List Sync","level":"info","message":"Loading mapping file","timestamp":"2026-04-29T19:15:00.049Z"}
+{"label":"Anime-List Sync","level":"info","message":"Loaded 10650 AniDB items from mapping file","timestamp":"2026-04-29T19:15:00.217Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:15:00.218Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:15:00.263Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:15:00.279Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:15:00.303Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:20:00.014Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"8115631b-4dd9-45fc-8de8-d4e1d9236288","timestamp":"2026-04-29T19:20:00.022Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:20:00.022Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:20:00.023Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:20:00.040Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:20:00.102Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:20:00.119Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:20:00.136Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:25:00.023Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"2101e5ff-f1d4-45d5-a3a4-41c99d07dc0f","timestamp":"2026-04-29T19:25:00.032Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:25:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:25:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:25:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:25:00.090Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:25:00.108Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:25:00.122Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:30:00.013Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"bcd9a6d7-baa6-47ae-a600-26d195b562de","timestamp":"2026-04-29T19:30:00.016Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:30:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:30:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:30:00.026Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:30:00.089Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:30:00.106Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:30:00.123Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:35:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"b66da71e-e8c4-4095-8389-26e9f3bb3017","timestamp":"2026-04-29T19:35:00.044Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:35:00.045Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:35:00.045Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:35:00.054Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:35:00.141Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:35:00.158Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:35:00.184Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:40:00.025Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"cd34f011-1b27-407a-9b5f-58a1d3e0ec01","timestamp":"2026-04-29T19:40:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:40:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:40:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:40:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:40:00.097Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:40:00.116Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:40:00.132Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:45:00.032Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"af06ae69-ca5f-4d8a-a262-14b5c6593827","timestamp":"2026-04-29T19:45:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:45:00.043Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:45:00.044Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:45:00.055Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:45:00.144Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:45:00.164Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:45:00.184Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:50:00.039Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"abd7db74-f631-4d69-a13a-53909c9dfb7b","timestamp":"2026-04-29T19:50:00.041Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:50:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:50:00.042Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:50:00.051Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:50:00.152Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:50:00.169Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:50:00.191Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T19:55:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"458208d6-34cb-4e5f-8367-6ab39bf0ba9d","timestamp":"2026-04-29T19:55:00.028Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T19:55:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T19:55:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T19:55:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T19:55:00.131Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T19:55:00.152Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T19:55:00.169Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T20:00:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"6ae920df-3922-4921-af10-a7a6cfca01a4","timestamp":"2026-04-29T20:00:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T20:00:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T20:00:00.024Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T20:00:00.035Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T20:00:00.099Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T20:00:00.113Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T20:00:00.128Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T20:05:00.013Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"fa514a4c-c3cc-4c26-8d64-bcff271c4168","timestamp":"2026-04-29T20:05:00.017Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T20:05:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T20:05:00.018Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T20:05:00.031Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T20:05:00.090Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T20:05:00.110Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T20:05:00.129Z"}
+{"account":{"email":"admin","ip":"::ffff:172.29.0.1","password":"__REDACTED__"},"label":"Auth","level":"warn","message":"Failed login attempt from user with incorrect Jellyfin credentials","timestamp":"2026-04-29T20:06:16.514Z"}
+{"ip":"::ffff:172.29.0.1","jellyfinUsername":"root","label":"API","level":"info","message":"Found matching Jellyfin user; updating user with Jellyfin","timestamp":"2026-04-29T20:06:21.512Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T20:10:00.023Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"66aec774-b085-4aaf-98e1-5f3771e2f55e","timestamp":"2026-04-29T20:10:00.032Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T20:10:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T20:10:00.036Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T20:10:00.048Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T20:10:00.108Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T20:10:00.121Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T20:10:00.135Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T20:15:00.012Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"12ee5972-083e-4693-bf7f-197c904ff52f","timestamp":"2026-04-29T20:15:00.019Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T20:15:00.020Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T20:15:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T20:15:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T20:15:00.097Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T20:15:00.112Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T20:15:00.128Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T20:20:00.021Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"032cd466-f7c3-4e0f-af8e-f9ca91f6a8c9","timestamp":"2026-04-29T20:20:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T20:20:00.029Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T20:20:00.030Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T20:20:00.045Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T20:20:00.105Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T20:20:00.122Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T20:20:00.137Z"}
+{"level":"info","message":"Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49","timestamp":"2026-04-29T20:20:26.284Z"}
+{"level":"info","message":"Starting Seerr version 3.2.0","timestamp":"2026-04-29T20:20:26.998Z"}
+{"label":"Notifications","level":"info","message":"Registered notification agents","timestamp":"2026-04-29T20:20:27.647Z"}
+{"label":"Jobs","level":"info","message":"Scheduled jobs loaded","timestamp":"2026-04-29T20:20:27.678Z"}
+{"label":"Server","level":"info","message":"Server ready on port 5055","timestamp":"2026-04-29T20:20:27.797Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T20:25:00.023Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"0e8899a4-d9bb-434d-82e3-3033519534ad","timestamp":"2026-04-29T20:25:00.032Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T20:25:00.033Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T20:25:00.034Z"}
+{"label":"Anime-List Sync","level":"info","message":"Loading mapping file","timestamp":"2026-04-29T20:25:00.051Z"}
+{"label":"Anime-List Sync","level":"info","message":"Loaded 10650 AniDB items from mapping file","timestamp":"2026-04-29T20:25:00.223Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T20:25:00.231Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T20:25:00.686Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T20:25:00.715Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T20:25:00.744Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T20:30:00.033Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"0a078512-4cd8-4f00-b094-6e9732b3e495","timestamp":"2026-04-29T20:30:00.037Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T20:30:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T20:30:00.039Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T20:30:00.056Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Фильмы","timestamp":"2026-04-29T20:30:00.134Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Сериалы","timestamp":"2026-04-29T20:30:00.154Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Recently Added Scan Complete","timestamp":"2026-04-29T20:30:00.176Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Jellyfin Recently Added Scan","timestamp":"2026-04-29T20:35:00.034Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Scan starting","sessionId":"eaa1b8f7-e5a4-4a7e-bc86-f5e7e0ec77d1","timestamp":"2026-04-29T20:35:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Radarr server was detected. 4K movie detection is now enabled","timestamp":"2026-04-29T20:35:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"At least one 4K Sonarr server was detected. 4K series detection is now enabled","timestamp":"2026-04-29T20:35:00.038Z"}
+{"label":"Jellyfin Sync","level":"info","message":"Beginning to process recently added for library: Аниме","timestamp":"2026-04-29T20:35:00.057Z"}
+{"error":500,"label":"Jellyfin API","level":"error","message":"Something went wrong while getting library content from the Jellyfin server: Request failed with status code 500","timestamp":"2026-04-29T20:35:00.112Z"}
+{"errorMessage":"","label":"Jellyfin Sync","level":"error","message":"Sync interrupted","timestamp":"2026-04-29T20:35:00.112Z"}

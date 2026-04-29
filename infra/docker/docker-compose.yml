@@ -1,0 +1,105 @@
+name: lms
+
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: lms-jellyfin
+    ports:
+      - "8096:8096"
+    environment:
+      TZ: ${TZ:-Europe/Moscow}
+    volumes:
+      - ../../data/jellyfin/config:/config
+      - ../../data/jellyfin/cache:/cache
+      - ../../data/media:/media
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8096"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  jellyseerr:
+    image: seerr/seerr:v3.2.0
+    container_name: lms-jellyseerr
+    ports:
+      - "5055:5055"
+    environment:
+      LOG_LEVEL: ${JELLYSEERR_LOG_LEVEL:-info}
+      TZ: ${TZ:-Europe/Moscow}
+      PUID: ${JELLYSEERR_PUID:-1000}
+      PGID: ${JELLYSEERR_PGID:-1000}
+    volumes:
+      - ../../data/jellyseerr:/app/config
+    depends_on:
+      jellyfin:
+        condition: service_started
+      radarr:
+        condition: service_started
+      sonarr:
+        condition: service_started
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:5055/api/v1/status"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: lms-radarr
+    environment:
+      TZ: ${TZ:-Europe/Moscow}
+      PUID: ${MEDIA_PUID:-1000}
+      PGID: ${MEDIA_PGID:-1000}
+    ports:
+      - "7878:7878"
+    volumes:
+      - ../../data/radarr/config:/config
+      - ../../data/media:/media
+      - ../../data/downloads:/downloads
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: lms-sonarr
+    environment:
+      TZ: ${TZ:-Europe/Moscow}
+      PUID: ${MEDIA_PUID:-1000}
+      PGID: ${MEDIA_PGID:-1000}
+    ports:
+      - "8989:8989"
+    volumes:
+      - ../../data/sonarr/config:/config
+      - ../../data/media:/media
+      - ../../data/downloads:/downloads
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: lms-prowlarr
+    environment:
+      TZ: ${TZ:-Europe/Moscow}
+      PUID: ${MEDIA_PUID:-1000}
+      PGID: ${MEDIA_PGID:-1000}
+    ports:
+      - "9696:9696"
+    volumes:
+      - ../../data/prowlarr/config:/config
+
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:latest
+    container_name: lms-qbittorrent
+    environment:
+      TZ: ${TZ:-Europe/Moscow}
+      PUID: ${MEDIA_PUID:-1000}
+      PGID: ${MEDIA_PGID:-1000}
+      WEBUI_PORT: 8080
+    ports:
+      - "8080:8080"
+      - "6881:6881"
+      - "6881:6881/udp"
+    volumes:
+      - ../../data/qbittorrent/config:/config
+      - ../../data/downloads:/downloads

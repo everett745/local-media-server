@@ -1,0 +1,14 @@
+{
+  "name": "nts",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Use docker compose for local dev'",
+    "up": "docker compose -f infra/docker/docker-compose.yml up -d",
+    "down": "docker compose -f infra/docker/docker-compose.yml down"
+  }
+}

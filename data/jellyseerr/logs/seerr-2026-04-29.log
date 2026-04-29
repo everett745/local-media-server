@@ -1,0 +1,317 @@
+2026-04-29T17:59:38.439Z [info]: Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49 
+2026-04-29T17:59:38.834Z [info]: Starting Seerr version 3.2.0 
+2026-04-29T17:59:40.620Z [info][Notifications]: Registered notification agents 
+2026-04-29T17:59:40.663Z [info][Jobs]: Scheduled jobs loaded 
+2026-04-29T17:59:40.757Z [info][Server]: Server ready on port 5055 
+2026-04-29T18:00:00.005Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:00:00.006Z [info][Jellyfin Sync]: Scan starting {"sessionId":"afe38604-a808-4eb3-8547-233a6a72e615"}
+2026-04-29T18:00:00.007Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:00:00.007Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:00:00.010Z [info][Anime-List Sync]: Downloading latest mapping file 
+2026-04-29T18:00:00.509Z [info][Anime-List Sync]: Loading mapping file 
+2026-04-29T18:00:00.627Z [info][Anime-List Sync]: Loaded 10650 AniDB items from mapping file 
+2026-04-29T18:00:00.627Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:00:00.681Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:00:00.700Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:00:00.718Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:00:01.140Z [info][API]: Found matching Jellyfin user; updating user with Jellyfin {"ip":"::ffff:172.29.0.1","jellyfinUsername":"root"}
+2026-04-29T18:05:00.015Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:05:00.017Z [info][Jellyfin Sync]: Scan starting {"sessionId":"b1cc352c-6be2-459a-9a88-6ccdf135ef79"}
+2026-04-29T18:05:00.018Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:05:00.018Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:05:00.025Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:05:00.063Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:05:00.078Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:05:00.092Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:06:49.466Z [info]: Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49 
+2026-04-29T18:06:49.800Z [info]: Starting Seerr version 3.2.0 
+2026-04-29T18:06:50.366Z [info][Notifications]: Registered notification agents 
+2026-04-29T18:06:50.395Z [info][Jobs]: Scheduled jobs loaded 
+2026-04-29T18:06:50.510Z [info][Server]: Server ready on port 5055 
+2026-04-29T18:10:00.036Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:10:00.042Z [info][Jellyfin Sync]: Scan starting {"sessionId":"3ab887df-2fb7-41b5-8f99-9ef4a6ce9a0b"}
+2026-04-29T18:10:00.043Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:10:00.044Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:10:00.053Z [info][Anime-List Sync]: Loading mapping file 
+2026-04-29T18:10:00.189Z [info][Anime-List Sync]: Loaded 10650 AniDB items from mapping file 
+2026-04-29T18:10:00.190Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:10:00.501Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:10:00.534Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:10:00.564Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:15:00.019Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:15:00.021Z [info][Jellyfin Sync]: Scan starting {"sessionId":"966e3526-5620-4630-8cbe-7856fd04449b"}
+2026-04-29T18:15:00.021Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:15:00.021Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:15:00.029Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:15:00.104Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:15:00.123Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:15:00.143Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:20:00.017Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:20:00.023Z [info][Jellyfin Sync]: Scan starting {"sessionId":"3d57671e-983f-4f99-a4c2-019b6b221eb9"}
+2026-04-29T18:20:00.024Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:20:00.024Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:20:00.035Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:20:00.091Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:20:00.104Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:20:00.118Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:25:00.021Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:25:00.053Z [info][Jellyfin Sync]: Scan starting {"sessionId":"f217a087-12ab-4bbb-a4ea-e5119314c015"}
+2026-04-29T18:25:00.053Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:25:00.053Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:25:00.065Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:25:00.165Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:25:00.182Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:25:00.202Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:30:00.027Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:30:00.036Z [info][Jellyfin Sync]: Scan starting {"sessionId":"2660f9ee-7891-4c67-9f8b-3c7b43f94c4f"}
+2026-04-29T18:30:00.037Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:30:00.038Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:30:00.059Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:30:00.115Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:30:00.131Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:30:00.147Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:35:00.025Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:35:00.029Z [info][Jellyfin Sync]: Scan starting {"sessionId":"e1cbc010-d5ad-4491-afad-e5a5f203c481"}
+2026-04-29T18:35:00.030Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:35:00.031Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:35:00.047Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:35:00.115Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:35:00.131Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:35:00.148Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:40:00.031Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:40:00.038Z [info][Jellyfin Sync]: Scan starting {"sessionId":"cb2b9e17-0da7-4518-beb0-19be64409f83"}
+2026-04-29T18:40:00.039Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:40:00.040Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:40:00.056Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:40:00.131Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:40:00.148Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:40:00.164Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:45:00.011Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:45:00.022Z [info][Jellyfin Sync]: Scan starting {"sessionId":"5dd695f1-26de-4bd3-a887-75ea8dac6be4"}
+2026-04-29T18:45:00.022Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:45:00.022Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:45:00.029Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:45:00.098Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:45:00.118Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:45:00.134Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:50:00.021Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:50:00.024Z [info][Jellyfin Sync]: Scan starting {"sessionId":"1a2068a2-4f00-476c-b392-ae74363cf12d"}
+2026-04-29T18:50:00.026Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:50:00.026Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:50:00.039Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:50:00.107Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:50:00.126Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:50:00.141Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T18:55:00.013Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T18:55:00.017Z [info][Jellyfin Sync]: Scan starting {"sessionId":"0bb8e643-7663-4451-aab9-0b7c0aa909de"}
+2026-04-29T18:55:00.020Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T18:55:00.021Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T18:55:00.034Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T18:55:00.095Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T18:55:00.110Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T18:55:00.126Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:00:00.009Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:00:00.010Z [info][Jellyfin Sync]: Scan starting {"sessionId":"570db443-aba6-4951-bad0-7ba0b27e4839"}
+2026-04-29T19:00:00.011Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:00:00.012Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:00:00.022Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:00:00.112Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:00:00.129Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:00:00.152Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:00:59.881Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Anaconda (2025)"}
+2026-04-29T19:00:59.884Z [info][Media Request]: Sent request to Radarr {"requestId":1,"mediaId":1}
+2026-04-29T19:01:00.678Z [info][Radarr]: Radarr accepted request 
+2026-04-29T19:02:01.936Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"Anaconda (2025)"}
+2026-04-29T19:02:01.938Z [info][Media Request]: Sent request to Radarr {"requestId":2,"mediaId":1}
+2026-04-29T19:02:02.072Z [info][Radarr]: Movie is already monitored in Radarr. {"movieId":1,"movieTitle":"Anaconda"}
+2026-04-29T19:02:02.072Z [info][Radarr]: Triggering search for existing monitored movie without file {"movieId":1,"movieTitle":"Anaconda"}
+2026-04-29T19:02:02.073Z [info][Radarr API]: Executing movie search command {"movieId":1}
+2026-04-29T19:02:35.507Z [info]: [Radarr] Removed movie Anaconda 
+2026-04-29T19:03:40.964Z [info][Jellyfin Sync]: Scan starting {"sessionId":"e9e34887-2e74-460e-b50f-5cb9912e0c88"}
+2026-04-29T19:03:40.965Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:03:40.965Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:03:40.976Z [info][Jellyfin Sync]: Beginning to process library: Аниме 
+2026-04-29T19:03:41.035Z [info][Jellyfin Sync]: Beginning to process library: Фильмы 
+2026-04-29T19:03:41.051Z [info][Jellyfin Sync]: Beginning to process library: Сериалы 
+2026-04-29T19:03:41.068Z [info][Jellyfin Sync]: Full Scan Complete 
+2026-04-29T19:05:00.034Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:05:00.037Z [info][Jellyfin Sync]: Scan starting {"sessionId":"374dded5-69b6-4bb5-a606-82ea78f51221"}
+2026-04-29T19:05:00.038Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:05:00.038Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:05:00.059Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:05:00.086Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:05:00.100Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:05:00.115Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:05:43.455Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"The Boys (2019)"}
+2026-04-29T19:05:43.462Z [info][Media Request]: Request has an override quality profile ID: 5 {"requestId":3,"mediaId":2}
+2026-04-29T19:05:43.463Z [info][Media Request]: Sent request to Sonarr {"requestId":3,"mediaId":2}
+2026-04-29T19:05:46.263Z [info][Sonarr]: Sonarr accepted request 
+2026-04-29T19:07:42.908Z [info][Notifications]: Sending notification(s) for MEDIA_AUTO_APPROVED {"subject":"The Boys (2019)"}
+2026-04-29T19:07:42.922Z [info][Media Request]: Sent request to Sonarr {"requestId":4,"mediaId":3}
+2026-04-29T19:07:43.471Z [info][Sonarr]: Sonarr accepted request 
+2026-04-29T19:08:41.887Z [error][Media]: [Sonarr] Failed to remove series: Request failed with status code 404 
+2026-04-29T19:08:43.395Z [error][Media]: [Sonarr] Failed to remove series: Request failed with status code 404 
+2026-04-29T19:10:00.033Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:10:00.034Z [info][Jellyfin Sync]: Scan starting {"sessionId":"984f32ac-9200-4900-b2b7-0219f3ace2ce"}
+2026-04-29T19:10:00.034Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:10:00.035Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:10:00.049Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:10:00.139Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:10:00.155Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:10:00.170Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:12:22.676Z [info]: Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49 
+2026-04-29T19:12:22.964Z [info]: Starting Seerr version 3.2.0 
+2026-04-29T19:12:23.452Z [info][Notifications]: Registered notification agents 
+2026-04-29T19:12:23.476Z [info][Jobs]: Scheduled jobs loaded 
+2026-04-29T19:12:23.542Z [info][Server]: Server ready on port 5055 
+2026-04-29T19:13:17.537Z [info]: Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49 
+2026-04-29T19:13:17.792Z [info]: Starting Seerr version 3.2.0 
+2026-04-29T19:13:18.340Z [info][Notifications]: Registered notification agents 
+2026-04-29T19:13:18.367Z [info][Jobs]: Scheduled jobs loaded 
+2026-04-29T19:13:18.431Z [info][Server]: Server ready on port 5055 
+2026-04-29T19:15:00.034Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:15:00.038Z [info][Jellyfin Sync]: Scan starting {"sessionId":"350c1c94-efee-47aa-b64f-395746142c07"}
+2026-04-29T19:15:00.039Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:15:00.039Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:15:00.049Z [info][Anime-List Sync]: Loading mapping file 
+2026-04-29T19:15:00.217Z [info][Anime-List Sync]: Loaded 10650 AniDB items from mapping file 
+2026-04-29T19:15:00.218Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:15:00.263Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:15:00.279Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:15:00.303Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:20:00.014Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:20:00.022Z [info][Jellyfin Sync]: Scan starting {"sessionId":"8115631b-4dd9-45fc-8de8-d4e1d9236288"}
+2026-04-29T19:20:00.022Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:20:00.023Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:20:00.040Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:20:00.102Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:20:00.119Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:20:00.136Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:25:00.023Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:25:00.032Z [info][Jellyfin Sync]: Scan starting {"sessionId":"2101e5ff-f1d4-45d5-a3a4-41c99d07dc0f"}
+2026-04-29T19:25:00.034Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:25:00.034Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:25:00.038Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:25:00.090Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:25:00.108Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:25:00.122Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:30:00.013Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:30:00.016Z [info][Jellyfin Sync]: Scan starting {"sessionId":"bcd9a6d7-baa6-47ae-a600-26d195b562de"}
+2026-04-29T19:30:00.017Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:30:00.017Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:30:00.026Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:30:00.089Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:30:00.106Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:30:00.123Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:35:00.035Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:35:00.044Z [info][Jellyfin Sync]: Scan starting {"sessionId":"b66da71e-e8c4-4095-8389-26e9f3bb3017"}
+2026-04-29T19:35:00.045Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:35:00.045Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:35:00.054Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:35:00.141Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:35:00.158Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:35:00.184Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:40:00.025Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:40:00.028Z [info][Jellyfin Sync]: Scan starting {"sessionId":"cd34f011-1b27-407a-9b5f-58a1d3e0ec01"}
+2026-04-29T19:40:00.029Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:40:00.029Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:40:00.037Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:40:00.097Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:40:00.116Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:40:00.132Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:45:00.032Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:45:00.042Z [info][Jellyfin Sync]: Scan starting {"sessionId":"af06ae69-ca5f-4d8a-a262-14b5c6593827"}
+2026-04-29T19:45:00.043Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:45:00.044Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:45:00.055Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:45:00.144Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:45:00.164Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:45:00.184Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:50:00.039Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:50:00.041Z [info][Jellyfin Sync]: Scan starting {"sessionId":"abd7db74-f631-4d69-a13a-53909c9dfb7b"}
+2026-04-29T19:50:00.042Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:50:00.042Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:50:00.051Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:50:00.152Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:50:00.169Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:50:00.191Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T19:55:00.018Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T19:55:00.028Z [info][Jellyfin Sync]: Scan starting {"sessionId":"458208d6-34cb-4e5f-8367-6ab39bf0ba9d"}
+2026-04-29T19:55:00.029Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T19:55:00.029Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T19:55:00.036Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T19:55:00.131Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T19:55:00.152Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T19:55:00.169Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T20:00:00.017Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T20:00:00.024Z [info][Jellyfin Sync]: Scan starting {"sessionId":"6ae920df-3922-4921-af10-a7a6cfca01a4"}
+2026-04-29T20:00:00.024Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T20:00:00.024Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T20:00:00.035Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T20:00:00.099Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T20:00:00.113Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T20:00:00.128Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T20:05:00.013Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T20:05:00.017Z [info][Jellyfin Sync]: Scan starting {"sessionId":"fa514a4c-c3cc-4c26-8d64-bcff271c4168"}
+2026-04-29T20:05:00.018Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T20:05:00.018Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T20:05:00.031Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T20:05:00.090Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T20:05:00.110Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T20:05:00.129Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T20:06:16.514Z [warn][Auth]: Failed login attempt from user with incorrect Jellyfin credentials {"account":{"ip":"::ffff:172.29.0.1","email":"admin","password":"__REDACTED__"}}
+2026-04-29T20:06:21.512Z [info][API]: Found matching Jellyfin user; updating user with Jellyfin {"ip":"::ffff:172.29.0.1","jellyfinUsername":"root"}
+2026-04-29T20:10:00.023Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T20:10:00.032Z [info][Jellyfin Sync]: Scan starting {"sessionId":"66aec774-b085-4aaf-98e1-5f3771e2f55e"}
+2026-04-29T20:10:00.036Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T20:10:00.036Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T20:10:00.048Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T20:10:00.108Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T20:10:00.121Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T20:10:00.135Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T20:15:00.012Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T20:15:00.019Z [info][Jellyfin Sync]: Scan starting {"sessionId":"12ee5972-083e-4693-bf7f-197c904ff52f"}
+2026-04-29T20:15:00.020Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T20:15:00.021Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T20:15:00.034Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T20:15:00.097Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T20:15:00.112Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T20:15:00.128Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T20:20:00.021Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T20:20:00.029Z [info][Jellyfin Sync]: Scan starting {"sessionId":"032cd466-f7c3-4e0f-af8e-f9ca91f6a8c9"}
+2026-04-29T20:20:00.029Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T20:20:00.030Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T20:20:00.045Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T20:20:00.105Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T20:20:00.122Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T20:20:00.137Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T20:20:26.284Z [info]: Commit Tag: e4ee71ae459cd45b66ad59b4b90c01e102e28e49 
+2026-04-29T20:20:26.998Z [info]: Starting Seerr version 3.2.0 
+2026-04-29T20:20:27.647Z [info][Notifications]: Registered notification agents 
+2026-04-29T20:20:27.678Z [info][Jobs]: Scheduled jobs loaded 
+2026-04-29T20:20:27.797Z [info][Server]: Server ready on port 5055 
+2026-04-29T20:25:00.023Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T20:25:00.032Z [info][Jellyfin Sync]: Scan starting {"sessionId":"0e8899a4-d9bb-434d-82e3-3033519534ad"}
+2026-04-29T20:25:00.033Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T20:25:00.034Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T20:25:00.051Z [info][Anime-List Sync]: Loading mapping file 
+2026-04-29T20:25:00.223Z [info][Anime-List Sync]: Loaded 10650 AniDB items from mapping file 
+2026-04-29T20:25:00.231Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T20:25:00.686Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T20:25:00.715Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T20:25:00.744Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T20:30:00.033Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T20:30:00.037Z [info][Jellyfin Sync]: Scan starting {"sessionId":"0a078512-4cd8-4f00-b094-6e9732b3e495"}
+2026-04-29T20:30:00.038Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T20:30:00.039Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T20:30:00.056Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T20:30:00.134Z [info][Jellyfin Sync]: Beginning to process recently added for library: Фильмы 
+2026-04-29T20:30:00.154Z [info][Jellyfin Sync]: Beginning to process recently added for library: Сериалы 
+2026-04-29T20:30:00.176Z [info][Jellyfin Sync]: Recently Added Scan Complete 
+2026-04-29T20:35:00.034Z [info][Jobs]: Starting scheduled job: Jellyfin Recently Added Scan 
+2026-04-29T20:35:00.038Z [info][Jellyfin Sync]: Scan starting {"sessionId":"eaa1b8f7-e5a4-4a7e-bc86-f5e7e0ec77d1"}
+2026-04-29T20:35:00.038Z [info][Jellyfin Sync]: At least one 4K Radarr server was detected. 4K movie detection is now enabled 
+2026-04-29T20:35:00.038Z [info][Jellyfin Sync]: At least one 4K Sonarr server was detected. 4K series detection is now enabled 
+2026-04-29T20:35:00.057Z [info][Jellyfin Sync]: Beginning to process recently added for library: Аниме 
+2026-04-29T20:35:00.112Z [error][Jellyfin API]: Something went wrong while getting library content from the Jellyfin server: Request failed with status code 500 {"error":500}
+2026-04-29T20:35:00.112Z [error][Jellyfin Sync]: Sync interrupted {"errorMessage":""}
