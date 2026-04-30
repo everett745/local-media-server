@@ -1,3 +1,15 @@
+# TODO
+
+https://github.com/homarr-labs/homarr
+
+https://github.com/Wh1rr/ultimate-jellyfin-stack
+
+
+
+
+
+
+
 # Local Media Stack (LMS)
 
 ![Docker Compose](https://img.shields.io/badge/docker-compose-2496ED?logo=docker&logoColor=white)
@@ -21,7 +33,7 @@
 
 ## Возможности
 
-- Единая точка запросов контента через Jellyseerr
+- Единая точка запросов контента через Seerr
 - Автоматизированная цепочка поиска и загрузки (Prowlarr -> Radarr/Sonarr -> qBittorrent)
 - Автоматическое пополнение библиотек Jellyfin
 - Хранение конфигов и медиа на хосте через volumes
@@ -30,8 +42,8 @@
 
 Поток данных:
 
-1. Пользователь отправляет запрос в Jellyseerr.
-2. Jellyseerr создает задачу в Radarr/Sonarr.
+1. Пользователь отправляет запрос в Seerr.
+2. Seerr создает задачу в Radarr/Sonarr.
 3. Radarr/Sonarr отправляют задание в qBittorrent.
 4. После завершения контент перемещается в `/media/*`.
 5. Jellyfin индексирует и показывает контент в библиотеке.
@@ -48,7 +60,7 @@
 1. Создайте структуру каталогов:
 
 ```bash
-mkdir -p data/{jellyfin/config,jellyfin/cache,jellyseerr,radarr/config,sonarr/config,prowlarr/config,qbittorrent/config,downloads,media/movies,media/tv,media/anime}
+mkdir -p data/{jellyfin/config,jellyfin/cache,seerr,radarr/config,sonarr/config,prowlarr/config,qbittorrent/config,downloads,media/movies,media/tv,media/anime}
 ```
 
 2. Запустите стек:
@@ -68,7 +80,7 @@ make ps
 | Сервис | URL | Назначение |
 |---|---|---|
 | Jellyfin | http://localhost:8096 | Медиасервер и просмотр |
-| Jellyseerr | http://localhost:5055 | Запросы контента |
+| Seerr | http://localhost:5055 | Запросы контента |
 | Radarr | http://localhost:7878 | Управление фильмами |
 | Sonarr | http://localhost:8989 | Управление сериалами/аниме |
 | Prowlarr | http://localhost:9696 | Индексеры |
@@ -108,7 +120,7 @@ make ps
 - В `Settings -> Apps` добавьте Radarr и Sonarr.
 - В `Indexers` добавьте нужные индексеры.
 
-### 6. Jellyseerr
+### 6. Seerr
 
 - Jellyfin: `http://jellyfin:8096`
 - Radarr: `http://radarr:7878`
@@ -116,7 +128,7 @@ make ps
 
 ### 7. Проверка цепочки
 
-1. Создайте запрос фильма или сериала в Jellyseerr.
+1. Создайте запрос фильма или сериала в Seerr.
 2. Проверьте появление задачи в Radarr/Sonarr.
 3. Убедитесь, что началась загрузка в qBittorrent.
 4. После завершения проверьте контент в Jellyfin.
@@ -174,7 +186,7 @@ make update
 ## Структура данных
 
 - `data/jellyfin/*` — конфиг и кэш Jellyfin
-- `data/jellyseerr/*` — конфиг Jellyseerr
+- `data/seerr/*` — конфиг Seerr
 - `data/radarr/*` — конфиг Radarr
 - `data/sonarr/*` — конфиг Sonarr
 - `data/prowlarr/*` — конфиг Prowlarr

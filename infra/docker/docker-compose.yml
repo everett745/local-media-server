@@ -19,18 +19,18 @@ services:
       retries: 10
       start_period: 30s
 
-  jellyseerr:
+  seerr:
     image: seerr/seerr:v3.2.0
-    container_name: lms-jellyseerr
+    container_name: lms-seerr
     ports:
       - "5055:5055"
     environment:
-      LOG_LEVEL: ${JELLYSEERR_LOG_LEVEL:-info}
+      LOG_LEVEL: ${SEERR_LOG_LEVEL:-info}
       TZ: ${TZ:-Europe/Moscow}
-      PUID: ${JELLYSEERR_PUID:-1000}
-      PGID: ${JELLYSEERR_PGID:-1000}
+      PUID: ${SEERR_PUID:-1000}
+      PGID: ${SEERR_PGID:-1000}
     volumes:
-      - ../../data/jellyseerr:/app/config
+      - ../../data/seerr:/app/config
     depends_on:
       jellyfin:
         condition: service_started
@@ -59,8 +59,7 @@ services:
       - "7878:7878"
     volumes:
       - ../../data/radarr/config:/config
-      - ../../data/media:/media
-      - ../../data/downloads:/downloads
+      - ../../data:/data
 
   sonarr:
     image: lscr.io/linuxserver/sonarr:latest
@@ -73,8 +72,7 @@ services:
       - "8989:8989"
     volumes:
       - ../../data/sonarr/config:/config
-      - ../../data/media:/media
-      - ../../data/downloads:/downloads
+      - ../../data:/data
 
   prowlarr:
     image: lscr.io/linuxserver/prowlarr:latest
@@ -102,4 +100,4 @@ services:
       - "6881:6881/udp"
     volumes:
       - ../../data/qbittorrent/config:/config
-      - ../../data/downloads:/downloads
+      - ../../data:/data

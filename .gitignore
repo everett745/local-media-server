@@ -21,10 +21,10 @@ data/**/logs.db
 data/**/*.db-shm
 data/**/*.db-wal
 
-# Jellyseerr personal user DB
-# data/jellyseerr/db/db.sqlite3
-data/jellyseerr/db/db.sqlite3-shm
-data/jellyseerr/db/db.sqlite3-wal
+# Seerr personal user DB
+# data/seerr/db/db.sqlite3
+data/seerr/db/db.sqlite3-shm
+data/seerr/db/db.sqlite3-wal
 
 # Backup/old settings files
-data/jellyseerr/settings.old.json
+data/seerr/settings.old.json
