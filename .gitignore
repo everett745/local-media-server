@@ -17,11 +17,12 @@ data/**/temp/
 data/**/*.log
 data/**/*.pid
 data/**/*.lock
+data/**/logs.db
 data/**/*.db-shm
 data/**/*.db-wal
 
 # Jellyseerr personal user DB
-data/jellyseerr/db/db.sqlite3
+# data/jellyseerr/db/db.sqlite3
 data/jellyseerr/db/db.sqlite3-shm
 data/jellyseerr/db/db.sqlite3-wal
 
