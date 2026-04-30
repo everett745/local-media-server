@@ -1,3 +1,29 @@
 node_modules
 .env
 .DS_Store
+
+# Runtime/media data
+data/downloads/
+data/media/
+
+# Logs and caches
+data/**/logs/
+data/**/log/
+data/**/cache/
+data/**/tmp/
+data/**/temp/
+
+# Transient runtime files
+data/**/*.log
+data/**/*.pid
+data/**/*.lock
+data/**/*.db-shm
+data/**/*.db-wal
+
+# Jellyseerr personal user DB
+data/jellyseerr/db/db.sqlite3
+data/jellyseerr/db/db.sqlite3-shm
+data/jellyseerr/db/db.sqlite3-wal
+
+# Backup/old settings files
+data/jellyseerr/settings.old.json
