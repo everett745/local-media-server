@@ -1,4 +1,4 @@
-COMPOSE_FILE := infra/docker/docker-compose.yml
+COMPOSE_FILE := docker-compose.yml
 COMPOSE := docker compose -f $(COMPOSE_FILE)
 
 .PHONY: help up down restart ps pull update logs logs-list logs-clean

@@ -7,11 +7,11 @@ services:
     ports:
       - "8096:8096"
     environment:
-      TZ: ${TZ:-Europe/Moscow}
+      TZ: ${TZ}
     volumes:
-      - ../../data/jellyfin/config:/config
-      - ../../data/jellyfin/cache:/cache
-      - ../../data/media:/media
+      - ${BASE_PATH}/jellyfin/config:/config
+      - ${BASE_PATH}/jellyfin/cache:/cache
+      - ${MEDIA_SHARE}/media:/media
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:8096"]
       interval: 15s
@@ -25,79 +25,70 @@ services:
     ports:
       - "5055:5055"
     environment:
-      LOG_LEVEL: ${SEERR_LOG_LEVEL:-info}
-      TZ: ${TZ:-Europe/Moscow}
-      PUID: ${SEERR_PUID:-1000}
-      PGID: ${SEERR_PGID:-1000}
+      TZ: ${TZ}
+      PUID: ${SEERR_PUID}
+      PGID: ${SEERR_PGID}
     volumes:
-      - ../../data/seerr:/app/config
-    depends_on:
-      jellyfin:
-        condition: service_started
-      radarr:
-        condition: service_started
-      sonarr:
-        condition: service_started
-    dns:
-      - 1.1.1.1
-      - 8.8.8.8
+      - ${BASE_PATH}/seerr:/app/config
+      - ${MEDIA_SHARE}:/data
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:5055/api/v1/status"]
       interval: 15s
       timeout: 5s
       retries: 10
       start_period: 30s
+    restart: unless-stopped
 
   radarr:
     image: lscr.io/linuxserver/radarr:latest
     container_name: lms-radarr
     environment:
-      TZ: ${TZ:-Europe/Moscow}
-      PUID: ${MEDIA_PUID:-1000}
-      PGID: ${MEDIA_PGID:-1000}
+      TZ: ${TZ}
+      PUID: ${MEDIA_PUID}
+      PGID: ${MEDIA_PGID}
     ports:
       - "7878:7878"
     volumes:
-      - ../../data/radarr/config:/config
-      - ../../data:/data
+      - ${BASE_PATH}/radarr/config:/config
+      - ${MEDIA_SHARE}:/data
 
   sonarr:
     image: lscr.io/linuxserver/sonarr:latest
     container_name: lms-sonarr
     environment:
-      TZ: ${TZ:-Europe/Moscow}
-      PUID: ${MEDIA_PUID:-1000}
-      PGID: ${MEDIA_PGID:-1000}
+      TZ: ${TZ}
+      PUID: ${MEDIA_PUID}
+      PGID: ${MEDIA_PGID}
     ports:
       - "8989:8989"
     volumes:
-      - ../../data/sonarr/config:/config
-      - ../../data:/data
+      - ${BASE_PATH}/sonarr/config:/config
+      - ${MEDIA_SHARE}:/data
 
   prowlarr:
     image: lscr.io/linuxserver/prowlarr:latest
     container_name: lms-prowlarr
     environment:
-      TZ: ${TZ:-Europe/Moscow}
-      PUID: ${MEDIA_PUID:-1000}
-      PGID: ${MEDIA_PGID:-1000}
+      TZ: ${TZ}
+      PUID: ${MEDIA_PUID}
+      PGID: ${MEDIA_PGID}
     ports:
       - "9696:9696"
     volumes:
-      - ../../data/prowlarr/config:/config
+      - ${BASE_PATH}/prowlarr/config:/config
 
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
     container_name: lms-qbittorrent
     environment:
-      TZ: ${TZ:-Europe/Moscow}
-      PUID: ${MEDIA_PUID:-1000}
-      PGID: ${MEDIA_PGID:-1000}
+      TZ: ${TZ}
+      PUID: ${MEDIA_PUID}
+      PGID: ${MEDIA_PGID}
       WEBUI_PORT: 8080
     ports:
       - "8080:8080"
       - "6881:6881"
       - "6881:6881/udp"
     volumes:
-      - ../../data/qbittorrent/config:/config
-      - ../../data:/data
+      - ${BASE_PATH}/qbittorrent/config:/config
+      - ${MEDIA_SHARE}:/data
