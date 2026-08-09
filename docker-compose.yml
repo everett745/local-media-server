@@ -11,7 +11,8 @@ services:
     volumes:
       - ${BASE_PATH}/jellyfin/config:/config
       - ${BASE_PATH}/jellyfin/cache:/cache
-      - ${MEDIA_SHARE}/media:/media
+      - ${MEDIA_SHARE}/media:/media          # локальные /data/media
+      - ${MEDIA_SHARE_USB}:/usb              # ← USB диск добавлен
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:8096"]
       interval: 15s
@@ -20,7 +21,7 @@ services:
       start_period: 30s
 
   seerr:
-    image: seerr/seerr:v3.2.0
+    image: seerr/seerr:latest
     container_name: lms-seerr
     ports:
       - "5055:5055"
@@ -30,7 +31,8 @@ services:
       PGID: ${SEERR_PGID}
     volumes:
       - ${BASE_PATH}/seerr:/app/config
-      - ${MEDIA_SHARE}:/data
+      - ${MEDIA_SHARE}:/data                  # локальный ./data
+      - ${MEDIA_SHARE_USB}:/usb               # ← USB диск добавлен
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:5055/api/v1/status"]
       interval: 15s
@@ -50,7 +52,8 @@ services:
       - "7878:7878"
     volumes:
       - ${BASE_PATH}/radarr/config:/config
-      - ${MEDIA_SHARE}:/data
+      - ${MEDIA_SHARE}:/data                  # локальный ./data
+      - ${MEDIA_SHARE_USB}:/usb               # ← USB диск добавлен
 
   sonarr:
     image: lscr.io/linuxserver/sonarr:latest
@@ -63,7 +66,8 @@ services:
       - "8989:8989"
     volumes:
       - ${BASE_PATH}/sonarr/config:/config
-      - ${MEDIA_SHARE}:/data
+      - ${MEDIA_SHARE}:/data                  # локальный ./data
+      - ${MEDIA_SHARE_USB}:/usb               # ← USB диск добавлен
 
   prowlarr:
     image: lscr.io/linuxserver/prowlarr:latest
@@ -91,4 +95,5 @@ services:
       - "6881:6881/udp"
     volumes:
       - ${BASE_PATH}/qbittorrent/config:/config
-      - ${MEDIA_SHARE}:/data
+      - ${MEDIA_SHARE}:/data                  # локальный ./data
+      - ${MEDIA_SHARE_USB}:/usb               # ← USB диск добавлен
