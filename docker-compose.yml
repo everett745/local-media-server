@@ -19,6 +19,7 @@ services:
       timeout: 5s
       retries: 10
       start_period: 30s
+    restart: unless-stopped
 
   seerr:
     image: seerr/seerr:latest
@@ -54,6 +55,7 @@ services:
       - ${BASE_PATH}/radarr/config:/config
       - ${MEDIA_SHARE}:/data                  # локальный ./data
       - ${MEDIA_SHARE_USB}:/usb               # ← USB диск добавлен
+    restart: unless-stopped
 
   sonarr:
     image: lscr.io/linuxserver/sonarr:latest
@@ -68,6 +70,7 @@ services:
       - ${BASE_PATH}/sonarr/config:/config
       - ${MEDIA_SHARE}:/data                  # локальный ./data
       - ${MEDIA_SHARE_USB}:/usb               # ← USB диск добавлен
+    restart: unless-stopped
 
   prowlarr:
     image: lscr.io/linuxserver/prowlarr:latest
@@ -80,6 +83,7 @@ services:
       - "9696:9696"
     volumes:
       - ${BASE_PATH}/prowlarr/config:/config
+    restart: unless-stopped
 
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest
@@ -97,3 +101,4 @@ services:
       - ${BASE_PATH}/qbittorrent/config:/config
       - ${MEDIA_SHARE}:/data                  # локальный ./data
       - ${MEDIA_SHARE_USB}:/usb               # ← USB диск добавлен
+    restart: unless-stopped
